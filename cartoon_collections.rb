@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarves)
+  dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
   dwarves.each_with_index{|x, y| puts "#{x} is #{y}"}
 end
 
