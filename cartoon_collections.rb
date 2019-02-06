@@ -1,7 +1,6 @@
 def roll_call_dwarves(dwarves)
-  dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
-  dwarves.each_with_index {|dvarf, index|
-  puts "#{index+1} #{dvarf}"
+  dwarves.each_with_index {|dwarf, index|
+    puts "#{index+1} #{dwarf}"
   }
 end
 
