@@ -17,7 +17,7 @@ end
 def find_the_cheese(array)
   array = ["cheddar", "gouda", "camembert"]
     if array.find.include?("cheddar")
-    "#{cheese}"
+    "cheddar"
   else
     nil
   end
