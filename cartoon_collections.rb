@@ -12,8 +12,7 @@ end
 
 def long_planeteer_calls(array)
   calls_short = ["wind", "fire"]
-  array.any? {|spell|
-  
+  array.any? {|spell| spell.
   
   
   # code an argument here
